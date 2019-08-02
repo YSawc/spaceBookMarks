@@ -1,8 +1,10 @@
 <script type="text/javascript">
 	function Init() {
-		setInterval ("checkFocus ()", 300);
+		checkFocus()
 	}
 
+	// this is not working
+	// TODO: change to work
 	function checkFocus ()) {
 		if (!document.hasFocus()) {
 			document.location.reload();

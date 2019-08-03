@@ -10,4 +10,9 @@
 			document.location.reload();
 		}
 	}
+
+	// TODO:
+	// deafult bookmarkDir is due to host locale lang
+	// so switch the locale lang and controll it
+
 </script>

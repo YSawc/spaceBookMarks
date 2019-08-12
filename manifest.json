@@ -10,4 +10,9 @@
 		"default_icon" : "icon_32.png",
 		"default_popup" : "popup.html"
 	}
+	},
+
+	"permission": [
+		"bookmarks"
+	]
 }

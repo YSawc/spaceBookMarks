@@ -10,7 +10,7 @@
 		"default_popup" : "popup.html"
 	},
 
-	"permission": [
+	"permissions": [
 		"bookmarks"
 	]
 }

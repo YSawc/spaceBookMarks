@@ -6,6 +6,12 @@
 // blog .. parent_dir
 // hoge: children_node (id: .., parent_node: .., name: ..)
 
+$(function() {
+  $('#search').change(function() {
+     $('#bookmarks').empty();
+     dumpBookmarks($('#search').val());
+  });
+});
 
 function dumpBookmarks(query) {
   var bookmarkTreeNodes = chrome.bookmarks.getTree(

@@ -3,6 +3,10 @@
 // blog: parent_node
 // hoge: children_file
 
+// blog .. parent_dir
+// hoge: children_node (id: .., parent_node: .., name: ..)
+
+
 function dumpBookmarks(query) {
   var bookmarkTreeNodes = chrome.bookmarks.getTree(
 	  // officialy

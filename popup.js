@@ -1,5 +1,5 @@
 // Tip:
-// input blog::hoge
+// input blog::hoge (PARENT_DIT/blog/hoge)
 // blog: parent_node
 // hoge: children_file
 

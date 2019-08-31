@@ -9,7 +9,7 @@
 $(function() {
   $('#search').change(function() {
      $('#create_bookmark').empty();
-     dumpBookmarks($('#search').val());
+     dumpBookmarks($('#create_bookmark').val());
   });
 });
 

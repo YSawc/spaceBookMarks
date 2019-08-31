@@ -8,7 +8,7 @@
 
 $(function() {
   $('#search').change(function() {
-     $('#bookmarks').empty();
+     $('#create_bookmark').empty();
      dumpBookmarks($('#search').val());
   });
 });

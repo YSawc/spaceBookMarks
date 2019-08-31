@@ -7,8 +7,9 @@
 // hoge: children_node (id: .., parent_node: .., name: ..)
 
 $(function() {
-  $('#search').change(function() {
-     $('#create_bookmark').empty();
+  $('#create_bookmark').change(function() {
+		var str_splited = $('#create_bookmark').val().split("::");
+
      dumpBookmarks($('#create_bookmark').val());
   });
 });

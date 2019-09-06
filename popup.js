@@ -18,9 +18,9 @@
 
 // if (enter_input) {
 //   chrome.bookmarks.create();
-//   if (TEXTPARSE = parent ) {
+//   if ( func__parse_inputText(TEXT) = parent ) {
 //     call:func__parse_to_parent_dir;
-//   } else if (TEXTPARSE = lastChild) {
+//   } else if (func__parse_inputText(TEXT) = lastChild) {
 //     call:func__parse_to_dir;
 //   }
 // }
@@ -30,3 +30,10 @@
 
 // func__parse_to_dir() {
 // }
+
+func__parse_inputText(string s) {
+	return parsed_dir
+}
+
+
+

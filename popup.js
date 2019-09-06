@@ -36,6 +36,17 @@
 //   return parsed_dir
 // }
 
+function parser(enter_input) {
+	chrome.bookmarks.create();
+	if ( func__parse_inputText(TEXT) = parent ) {
+		// TODO:
+		// call:func__parse_to_parent_dir;
+	} else if (func__parse_inputText(TEXT) = lastChild) {
+		// TODO:
+		// call:func__parse_to_dir;
+	}
+}
+
 function parseToParendDir() {
 	// TODO
 }

@@ -36,6 +36,15 @@
 //   return parsed_dir
 // }
 
+function createBookMark() {
+	// TODO:
+	// call:parser(TEXT)
+	chrome.bookmarks.create({
+			parentId: bookmarkNode.id,
+			title: // call:parser(TEXT:returned_LastChildDir)
+	});
+}
+
 function parser(enter_input) {
 	chrome.bookmarks.create();
 	if ( func__parse_inputText(TEXT) = parent ) {

@@ -8,6 +8,7 @@
 
 // TIP:
 // func ..
+//
 // create
 // parse ..
 //		to parentFileDir
@@ -34,6 +35,4 @@
 // func__parse_inputText(string s) {
 //   return parsed_dir
 // }
-
-
 

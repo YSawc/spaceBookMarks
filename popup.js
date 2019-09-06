@@ -19,9 +19,10 @@
 // if (enter_input) {
 //   chrome.bookmarks.create();
 //   if (TEXTPARSE = parent ) {
-//   call:func__parse_to_parent_dir;
-//   } else if (TEXTPARSE = lastChild)
-//   call:func__parse_to_dir;
+//     call:func__parse_to_parent_dir;
+//   } else if (TEXTPARSE = lastChild) {
+//     call:func__parse_to_dir;
+//   }
 // }
 
 // func__parse_to_parent_dir() {

@@ -31,9 +31,9 @@
 // func__parse_to_dir() {
 // }
 
-func__parse_inputText(string s) {
-	return parsed_dir
-}
+// func__parse_inputText(string s) {
+//   return parsed_dir
+// }
 
 
 

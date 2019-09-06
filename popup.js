@@ -6,18 +6,13 @@
 // blog .. parent_dir
 // hoge: children_node (id: .., parent_node: .., name: ..)
 
-$(function() {
-  $('#create_bookmark').change(function() {
-		var str_splited = $('#create_bookmark').val().split("::");
+// TIP:
+// func ..
+// create
+// parse ..
+//		to parentFileDir
+//		to bookmarkFileDir
 
-     dumpBookmarks($('#create_bookmark').val());
-  });
-});
-
-function dumpBookmarks(query) {
-  var bookmarkTreeNodes = chrome.bookmarks.getTree(
-	  // officialy
-    function(bookmarkTreeNodes) {
-      $('#bookmarks').append(dumpTreeNodes(bookmarkTreeNodes, query));
-    });
-}
+// NODE:
+// parent_dir
+// 

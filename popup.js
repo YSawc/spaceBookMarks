@@ -36,3 +36,15 @@
 //   return parsed_dir
 // }
 
+function parseToParendDir() {
+	// TODO
+}
+
+function parseToLastChildDir() {
+	// TODO
+}
+
+function parseInputText(str) {
+	// TODO:
+	// return (list_of_parsedTEXT)
+}

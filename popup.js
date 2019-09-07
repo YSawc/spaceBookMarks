@@ -55,7 +55,7 @@ function parser(enter_input) {
 		// call:func__parse_to_dir;
 	} else if (func__parse_inputText(TEXT) = doubleCollon) {
 		// TODO:
-		// call:func__parse_to_divDir
+		// call:func__divDir
 	}
 }
 

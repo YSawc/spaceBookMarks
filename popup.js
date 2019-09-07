@@ -53,6 +53,8 @@ const RECENTGETNUM = 1
 /*
  * NUM:
  * */
+
+const ZERO = 0
 /*
  * MAIN:
  * */

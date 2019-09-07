@@ -111,11 +111,12 @@ $('#save').click(function() {
 	// create bookmark
 });
 
-$('#undo').click(function() {
+function undo() {
 	chrome.bookmarks.getRecent(
 		RECENTGETNUM,
 		function(res){
-			chrome.bookmarks.remove(String(res.id))
+			chrome.bookmarks.remove(String(res[ZERO].id))
 		}
 	);
-});
+};
+

@@ -43,6 +43,9 @@
 
 // initNodeNum:: default: "1"
 var initNodeNum = "1"
+// RECENTGETNUM:: const: 1
+const RECENTGETNUM = 1
+
 function createBookMark() {
 	// TODO:
 	// call:parser(TEXT)

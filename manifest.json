@@ -12,5 +12,12 @@
 
 	"permissions": [
 		"bookmarks"
-	]
+	],
+
+	"js": [
+		"src/jquery-2.2.0.min.js",
+		"popup.js"
+	],
+
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }

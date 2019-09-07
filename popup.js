@@ -64,11 +64,10 @@ recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
 
 $(document).on("keypress", "input", function(e){
 	// detect ENTER_input
- if(e.which == 13){
-	var inputVal = $(this).val();
-	if (inputVal = 'undo') {
-		// undo();
-		console.log('undo');
+	if(e.which == 13){
+		var inputVal = $(this).val();
+		if (inputVal = 'undo') {
+			undo();
 	};
  };
 });

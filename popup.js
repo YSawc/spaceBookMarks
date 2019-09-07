@@ -46,6 +46,10 @@ var initNodeNum = "1"
 // RECENTGETNUM:: const: 1
 const RECENTGETNUM = 1
 
+/*
+ * MAIN:
+ * */
+
 function createBookMark() {
 	// TODO:
 	// call:parser(TEXT)

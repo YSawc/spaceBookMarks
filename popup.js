@@ -97,3 +97,13 @@ $('#save').click(function() {
 	// TODO:
 	// create bookmark
 });
+$('#undo').click(function() {
+	chrome.bookmarks.getRecent(
+		RECENTGETNUM,
+		function(res){
+			chrome.bookmarks.remove(String(res.id))
+		}
+	);
+
+
+});

@@ -57,9 +57,18 @@ const RECENTGETNUM = 1
 const ZERO = 0
 // int: recentID .. for func__UNDO
 recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
+
 /*
  * MAIN:
  * */
+
+$(document).on("keypress", "input", function(e){
+	// detect ENTER_input
+    if(e.which == 13){
+      var inputVal = $(this).val();
+			console.log(inputVal);
+    }
+});
 
 function createBookMark() {
 	// TODO:

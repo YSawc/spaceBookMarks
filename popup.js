@@ -55,6 +55,8 @@ const RECENTGETNUM = 1
  * */
 
 const ZERO = 0
+// int: recentID .. for func__UNDO
+recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
 /*
  * MAIN:
  * */

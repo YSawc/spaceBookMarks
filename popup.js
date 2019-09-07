@@ -51,6 +51,9 @@ var initNodeNum = "1"
 const RECENTGETNUM = 1
 
 /*
+ * NUM:
+ * */
+/*
  * MAIN:
  * */
 

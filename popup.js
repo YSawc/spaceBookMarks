@@ -68,8 +68,8 @@ $(document).on("keypress", "input", function(e){
 		var inputVal = $(this).val();
 		if (inputVal = 'undo') {
 			undo();
+		};
 	};
- };
 });
 
 

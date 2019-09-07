@@ -97,6 +97,7 @@ $('#save').click(function() {
 	// TODO:
 	// create bookmark
 });
+
 $('#undo').click(function() {
 	chrome.bookmarks.getRecent(
 		RECENTGETNUM,
@@ -104,6 +105,4 @@ $('#undo').click(function() {
 			chrome.bookmarks.remove(String(res.id))
 		}
 	);
-
-
 });

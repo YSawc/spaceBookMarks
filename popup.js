@@ -6,13 +6,16 @@
 // blog .. parent_dir
 // hoge: children_node (id: .., parent_node: .., name: ..)
 
-// TIP:
-// func ..
-//
-// create
-// parse ..
-//		to parentFileDir
-//		to bookmarkFileDir
+/*
+ * TIP:
+ *
+ * func ..
+ *
+ * create
+ *  parse ..
+ *		to parentFileDir
+ *		to bookmarkFileDir
+ * */
 
 // NODE:
 // parent_dir

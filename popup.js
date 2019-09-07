@@ -36,6 +36,13 @@
 //   return parsed_dir
 // }
 
+
+/*
+ * INIT:
+ * */
+
+// default: "1"
+var initNodeNum = "1"
 function createBookMark() {
 	// TODO:
 	// call:parser(TEXT)

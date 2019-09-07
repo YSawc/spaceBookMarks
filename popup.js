@@ -41,7 +41,7 @@
  * INIT:
  * */
 
-// default: "1"
+// initNodeNum:: default: "1"
 var initNodeNum = "1"
 function createBookMark() {
 	// TODO:

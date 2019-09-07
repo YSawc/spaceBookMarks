@@ -63,6 +63,13 @@ recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
  * */
 
 $(document).on("keypress", "input", function(e){
+	// TODO: ctrl+[ work same to ESC
+	// if(event.ctrlKey) {
+	//   if(e.whitch === 219) {
+	//     console.log('ctrl+219 input');
+	//   };
+	// };
+
 	// detect ENTER_input
 	if(e.which == 13){
 		var inputVal = $(this).val();

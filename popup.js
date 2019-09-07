@@ -78,3 +78,8 @@ function parseInputText(str) {
 	// TODO:
 	// return (list_of_parsedTEXT)
 }
+
+$('#save').click(function() {
+	// TODO:
+	// create bookmark
+});

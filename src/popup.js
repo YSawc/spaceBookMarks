@@ -34,10 +34,11 @@ $(document).on("keypress", "input", function(e){
 		var inputVal = $(this).val();
 		if (inputVal === 'undo') {
 			undo();
-		}else if (inputVal === 'redo') {
+		} else if (inputVal === 'redo') {
 			redo()
-		};
-		parseToDir(inputVal);
+		} else {
+			parseToDir(inputVal);
+		}
 	};
 	// TODO:
 	// clearText();

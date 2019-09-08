@@ -166,3 +166,7 @@ function clearText() {
 // chrome.bookmarks.getTree(function(r){console.log(r);});
 
 // chrome.bookmarks.getChildren(initNodeNum, function(r){console.log(r);});
+
+/*
+ * IDEA
+ * */

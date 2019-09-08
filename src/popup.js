@@ -58,6 +58,8 @@ function parseToDir(str) {
 	// console.log(dirParent);
 	// console.log(splitStr);
 
+	// TODO:
+	// rewite to recursive_func
 	chrome.bookmarks.search(
 		String(dirParent),
 

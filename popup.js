@@ -49,6 +49,7 @@
 var initNodeNum = "1"
 // RECENTGETNUM:: const: 1
 const RECENTGETNUM = 1
+var redoArr = Array(RECENTGETNUM)
 
 /*
  * NUM:

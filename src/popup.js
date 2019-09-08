@@ -62,6 +62,7 @@ function parseToDir(str) {
 
 			function(r) {
 				chrome.bookmarks.create({
+					// TODO: Refactoring
 				'parentId': r[r.length-1]['parentId'],
 				'title': String(dirBookMark),
 				'url': Data.URL
@@ -144,7 +145,6 @@ function clearText() {
  *		to parentFileDir
  *		to bookmarkFileDir
  * undo :: undo recent_createBookMark
- * */
 
 // NODE:
 // parent_dir

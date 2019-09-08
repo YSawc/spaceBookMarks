@@ -74,6 +74,7 @@ function parseToDir(str) {
 	);
 }
 
+// TODO: Refactoring
 function createBookMark(parentId, title, url) {
 	chrome.bookmarks.create({
 		'parentId': parentId,

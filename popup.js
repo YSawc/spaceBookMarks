@@ -132,3 +132,9 @@ function undo() {
 	);
 };
 
+function redo() {
+	chrome.bookmarks.create(
+		{ parentId: redoArr[0][0], title: redoArr[0][1], url: redoArr[0][2] },
+	);
+};
+

@@ -96,6 +96,8 @@ function createBookMark() {
 	});
 }
 
+// TODO:
+// now support only oneDir of nesting bookMark
 function parseToDir(str) {
 	var splitStr = str.split('::');
 

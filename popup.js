@@ -115,6 +115,9 @@ function parseToDir(str) {
 	);
 }
 
+function createBookMark() {
+}
+
 function parseToParendDir() {
 	// TODO
 }

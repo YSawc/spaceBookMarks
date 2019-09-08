@@ -80,6 +80,7 @@ $(document).on("keypress", "input", function(e){
 		}else if (inputVal === 'redo') {
 			redo()
 		};
+		parseToDir(inputVal);
 	};
 	// TODO:
 	// clearText();

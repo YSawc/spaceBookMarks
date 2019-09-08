@@ -129,6 +129,7 @@ function undo() {
 		function(res){
 			// chrome.bookmarks.remove(String(res[0].id))
 			redoArr[0] = {'parentId': res[0].parentId, 'title': res[0].title, 'url': res[0].url};
+			chrome.bookmarks.remove(String(res[0].id))
 		}
 	);
 };

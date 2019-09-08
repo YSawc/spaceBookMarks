@@ -111,6 +111,17 @@ function parseToDir(str) {
 	// console.log(dirParent);
 	// console.log(splitStr);
 
+	chrome.bookmarks.search(
+		String(dirParent),
+
+			function(r) {
+				chrome.bookmarks.create({
+				'parentId': r[r.length-1]['parentId'],
+				'title': String(dirBookMark),
+				'url': Data.URL
+			});
+		}
+	);
 }
 
 function parseToParendDir() {

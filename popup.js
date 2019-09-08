@@ -154,3 +154,6 @@ function clearText() {
 	// crera TextBox
 }
 
+/*
+ * DEBUG
+ * */

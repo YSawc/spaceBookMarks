@@ -60,6 +60,7 @@ const ZERO = 0
 recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
 
 chrome.bookmarks.getRecent(RECENTGETNUM, function(r){console.log(r);});
+
 /*
  * MAIN:
  * */
@@ -86,16 +87,6 @@ $(document).on("keypress", "input", function(e){
 	// TODO:
 	// clearText();
 });
-
-
-function createBookMark() {
-	// TODO:
-	// call:parser(TEXT)
-	chrome.bookmarks.create({
-			parentId: bookmarkNode.id,
-			title: // call:parser(TEXT:returned_LastChildDir)
-	});
-}
 
 // TODO:
 // now support only oneDir of nesting bookMark

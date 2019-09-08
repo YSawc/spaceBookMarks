@@ -75,8 +75,8 @@ $(document).on("keypress", "input", function(e){
 	// detect ENTER_input
 	if(e.which == 13){
 		var inputVal = $(this).val();
-			undo();
 		if (inputVal === 'undo') {
+			undo();
 		};
 	};
 });

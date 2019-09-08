@@ -140,14 +140,15 @@ function clearText() {
 
 /*
  * TIP:
- *
- * func ..
- *
- * create
- *  parse ..
- *		to parentFileDir
- *		to bookmarkFileDir
- * undo :: undo recent_createBookMark
+ * */
+
+// func ..
+
+// create
+//  parse ..
+//    to parentFileDir
+//    to bookmarkFileDir
+// undo :: undo recent_createBookMark
 
 // NODE:
 // parent_dir

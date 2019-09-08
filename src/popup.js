@@ -102,7 +102,7 @@ function undo() {
 			// for func__redo
 			redoArr[ZERO] = {'parentId': res[ZRRO].parentId, 'title': res[ZERO].title, 'url': res[ZERO].url};
 
-			chrome.bookmarks.remove(String(res[0].id))
+			chrome.bookmarks.remove(String(res[ZERO].id))
 		}
 	);
 };

@@ -96,18 +96,19 @@ function createBookMark() {
 	});
 }
 
-function parser(enter_input) {
-	chrome.bookmarks.create();
-	if ( func__parse_inputText(TEXT) = parent ) {
-		// TODO:
-		// call:func__parse_to_parent_dir;
-	} else if (func__parse_inputText(TEXT) = lastChild) {
-		// TODO:
-		// call:func__parse_to_dir;
-	} else if (func__parse_inputText(TEXT) = doubleCollon) {
-		// TODO:
-		// call:func__divDir;
-	}
+function parseToDir(str) {
+	var splitStr = str.split('::');
+
+  // dirBookMark: bookmark
+	var dirBookMark = splitStr.pop();
+	console.log(dirBookMark);
+
+  // dirParent: for search create Dir of bookMark
+	var dirParent = splitStr;
+	console.log(dirParent);
+	// console.log(splitStr);
+
+	chrome.bookmarks.search("blog", function(r){console.log(r);});
 }
 
 function parseToParendDir() {
@@ -134,6 +135,7 @@ function undo() {
 		function(res){
 			// for func__redo
 			redoArr[0] = {'parentId': res[0].parentId, 'title': res[0].title, 'url': res[0].url};
+
 			chrome.bookmarks.remove(String(res[0].id))
 		}
 	);

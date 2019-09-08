@@ -127,7 +127,7 @@ function undo() {
 	chrome.bookmarks.getRecent(
 		RECENTGETNUM,
 		function(res){
-			chrome.bookmarks.remove(String(res[ZERO].id))
+			// chrome.bookmarks.remove(String(res[0].id))
 		}
 	);
 };

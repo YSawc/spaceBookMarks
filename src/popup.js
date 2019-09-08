@@ -14,7 +14,7 @@ var redoArr = Array(RECENTGETNUM)
 
 const ZERO = 0
 // int: recentID .. for func__UNDO
-recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
+recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[ZERO].id});
 
 /*
  * MAIN:
@@ -98,7 +98,7 @@ function undo() {
 		RECENTGETNUM,
 		function(res){
 			// for func__redo
-			redoArr[0] = {'parentId': res[0].parentId, 'title': res[0].title, 'url': res[0].url};
+			redoArr[ZERO] = {'parentId': res[ZRRO].parentId, 'title': res[ZERO].title, 'url': res[ZERO].url};
 
 			chrome.bookmarks.remove(String(res[0].id))
 		}
@@ -107,7 +107,7 @@ function undo() {
 
 function redo() {
 	chrome.bookmarks.create(
-		{ 'parentId': redoArr[0]['parentId'], 'title': redoArr[0]['title'], 'url': redoArr[0]['url'] },
+		{ 'parentId': redoArr[ZERO]['parentId'], 'title': redoArr[ZERO]['title'], 'url': redoArr[ZERO]['url'] },
 	);
 };
 
@@ -168,6 +168,3 @@ function clearText() {
 // func__parse_inputText(string s) {
 //   return parsed_dir
 // }
-
-
-

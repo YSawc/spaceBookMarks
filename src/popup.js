@@ -74,7 +74,12 @@ function parseToDir(str) {
 	);
 }
 
-function createBookMark() {
+function createBookMark(parentId, title, url) {
+	chrome.bookmarks.create({
+		'parentId': parentId,
+		'title': title,
+		'url': url
+	});
 }
 
 function parseToParendDir() {

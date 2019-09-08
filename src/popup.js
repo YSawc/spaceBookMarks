@@ -99,7 +99,7 @@ function undo() {
 		RECENTGETNUM,
 		function(res){
 			// for func__redo
-			redoArr[ZERO] = {'parentId': res[ZRRO].parentId, 'title': res[ZERO].title, 'url': res[ZERO].url};
+			redoArr[ZERO] = {'parentId': res[ZERO].parentId, 'title': res[ZERO].title, 'url': res[ZERO].url};
 
 			chrome.bookmarks.remove(String(res[ZERO].id))
 		}

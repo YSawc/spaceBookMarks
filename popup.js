@@ -63,6 +63,7 @@ recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
  * MAIN:
  * */
 
+// key input trigger
 $(document).on("keypress", "input", function(e){
 	// TODO: ctrl+[ work same to ESC
 	// if(event.ctrlKey) {

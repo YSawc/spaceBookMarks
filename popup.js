@@ -144,3 +144,8 @@ function redo() {
 	);
 };
 
+function clearText() {
+	// TODO:
+	// crera TextBox
+}
+

@@ -16,8 +16,6 @@ const ZERO = 0
 // int: recentID .. for func__UNDO
 recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
 
-chrome.bookmarks.getRecent(RECENTGETNUM, function(r){console.log(r);});
-
 /*
  * MAIN:
  * */
@@ -121,8 +119,8 @@ function clearText() {
  * */
 
 // chrome.bookmarks.getTree(function(r){console.log(r);});
-
 // chrome.bookmarks.getChildren(initNodeNum, function(r){console.log(r);});
+// chrome.bookmarks.getRecent(RECENTGETNUM, function(r){console.log(r);});
 
 /*
  * IDEA

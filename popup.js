@@ -59,6 +59,7 @@ const ZERO = 0
 // int: recentID .. for func__UNDO
 recentID = chrome.bookmarks.getRecent(RECENTGETNUM, function(r){r[0].id});
 
+chrome.bookmarks.getRecent(RECENTGETNUM, function(r){console.log(r);});
 /*
  * MAIN:
  * */
@@ -103,14 +104,13 @@ function parseToDir(str) {
 
   // dirBookMark: bookmark
 	var dirBookMark = splitStr.pop();
-	console.log(dirBookMark);
+	// console.log(dirBookMark);
 
   // dirParent: for search create Dir of bookMark
 	var dirParent = splitStr;
-	console.log(dirParent);
+	// console.log(dirParent);
 	// console.log(splitStr);
 
-	chrome.bookmarks.search("blog", function(r){console.log(r);});
 }
 
 function parseToParendDir() {
@@ -160,4 +160,4 @@ function clearText() {
 
 // chrome.bookmarks.getTree(function(r){console.log(r);});
 
-chrome.bookmarks.getChildren(initNodeNum, function(r){console.log(r);});
+// chrome.bookmarks.getChildren(initNodeNum, function(r){console.log(r);});

@@ -81,6 +81,8 @@ $(document).on("keypress", "input", function(e){
 			redo()
 		};
 	};
+	// TODO:
+	// clearText();
 });
 
 

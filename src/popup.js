@@ -63,14 +63,7 @@ function parseToDir(str) {
 	chrome.bookmarks.search(
 		String(dirParent),
 
-			function(r) {
-				chrome.bookmarks.create({
-					// TODO: Refactoring
-				'parentId': r[r.length-1]['parentId'],
-				'title': String(dirBookMark),
-				'url': Data.URL
-			});
-		}
+		function(r) {createBookMark(r[r.length-1]['parentId'], String(dirBookMark), Data.URL);}
 	);
 }
 

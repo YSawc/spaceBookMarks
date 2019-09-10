@@ -36,7 +36,7 @@ $(document).on("keypress", "input", function(e){
 			undo();
 		} else if (inputVal === 'redo') {
 			redo()
-		} else {
+		} else if (inputVal.includes('::')) {
 			parseToDir(inputVal);
 		}
 	};

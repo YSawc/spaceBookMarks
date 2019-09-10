@@ -1,4 +1,4 @@
-# spaceBookMarks (beta)
+# [spaceBookMarks](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje) (beta)
 
 ![spaceBookMarks](https://github.com/YSawc/spaceBookMarks/blob/master/screenshot/spaceBookMarks.jpg)
 
@@ -18,7 +18,7 @@ MIT
 
 ## for JP
 
-# [spaceBookMarks](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje) ([github](https://github.com/YSawc/spaceBookMarks))　(chrome拡張) 
+# [spaceBookMarks](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje)(chrome拡張)
 
 ![スクリーンショット 2019-09-09 6.03.59.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/287566/2e45a07e-0cc4-031d-c6d5-714953dc846d.jpeg)
 

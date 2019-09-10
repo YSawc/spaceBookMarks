@@ -62,8 +62,10 @@ function parseToDir(str) {
 	// rewite to recursive_func
 	chrome.bookmarks.search(
 		String(dirParent),
-
-		function(r) {createBookMark(r[r.length-1]['parentId'], String(dirBookMark), Data.URL);}
+		function(r) {
+			const constParentId = r["0"].id;
+			createBookMark(constParentId, String(dirBookMark), Data.URL);
+		}
 	);
 }
 

@@ -16,7 +16,7 @@ Features:
 MIT
 
 
-## for JP
+## 日本人向けのヘルプはここから
 
 # [spaceBookMarks](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje)(chrome拡張)
 
@@ -66,10 +66,5 @@ blogという名前のディレクトリを検索して、直下にYSawcとい�
 なので、ユーザー任意でディレクトリを指定できるように実装予定です。
 
 ## 私事
-
-javascriptに入門して2日間くらいで大枠を作ったので、中身の実装部分は相当の荒れ模様です。
-なので、リファクタリングしていく楽しみがあります。(あと個人的にメインなタスクとしてtypescriptに移行するのも超楽しみ)
-chromeの拡張用の絵をまだ書いてないので、chromeの拡張絵自体はフリー素材を使ってます。
-
 
 機能拡大はそこまでしないと思います。実装するとしたら、ミニマムに実装していきたいです。

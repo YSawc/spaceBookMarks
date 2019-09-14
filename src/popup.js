@@ -3,7 +3,7 @@
  * */
 
 // initNodeNum:: default: "1"
-let initNodeNum = "1"
+const initNodeNum = "1"
 // RECENTGETNUM:: const: 1
 const RECENTGETNUM = 1
 let redoArr = Array(RECENTGETNUM)

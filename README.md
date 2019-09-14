@@ -17,7 +17,6 @@ Features:
 ## License
 MIT
 
-
 ## 日本人向けのヘルプはここから
 
 # [spaceBookMarks](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje)(chrome拡張)
@@ -28,6 +27,10 @@ MIT
 
 - 「ブックマーク作成に一々マウス使いたくねぇ」
 そんな方のために作成中の、キーボードのみでブックマークが作成できるブラウザプラグインです。
+
+### chrome拡張のリンク
+
+[chrome拡張](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje)
 
 ## 特徴
 

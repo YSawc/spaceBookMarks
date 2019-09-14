@@ -3,10 +3,10 @@
  * */
 
 // initNodeNum:: default: "1"
-var initNodeNum = "1"
+let initNodeNum = "1"
 // RECENTGETNUM:: const: 1
 const RECENTGETNUM = 1
-var redoArr = Array(RECENTGETNUM)
+let redoArr = Array(RECENTGETNUM)
 
 /*
  * NUM:
@@ -31,7 +31,7 @@ $(document).on("keypress", "input", function(e){
 
 	// detect ENTER_input
 	if(e.which == 13){
-		var inputVal = $(this).val();
+		let inputVal = $(this).val();
 		if (inputVal === 'undo') {
 			undo();
 		} else if (inputVal === 'redo') {
@@ -47,14 +47,14 @@ $(document).on("keypress", "input", function(e){
 // TODO:
 // now support only oneDir of nesting bookMark
 function parseToDir(str) {
-	var splitStr = str.split('::');
+	let splitStr = str.split('::');
 
   // dirBookMark: bookmark
-	var dirBookMark = splitStr.pop();
+	let dirBookMark = splitStr.pop();
 	// console.log(dirBookMark);
 
   // dirParent: for search create Dir of bookMark
-	var dirParent = splitStr;
+	let dirParent = splitStr;
 	// console.log(dirParent);
 	// console.log(splitStr);
 

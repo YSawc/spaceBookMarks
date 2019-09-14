@@ -5,7 +5,7 @@
 	"description" : "manage bookMark with namespace",
 
 	"browser_action": {
-		"default_icon" : "src/png/icon_32.png",
+		"default_icon" : "src/png/small__spaceBookMark.png",
 		"default_popup" : "src/popup.html"
 	},
 

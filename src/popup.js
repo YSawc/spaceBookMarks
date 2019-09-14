@@ -63,8 +63,18 @@ function parseToDir(str) {
 	chrome.bookmarks.search(
 		String(dirParent),
 		function(r) {
-			const constParentId = r["0"].id;
-			createBookMark(constParentId, String(dirBookMark), Data.URL);
+			// console.log(r.length);
+			// const constParentId = r["0"].id;
+			let dirParentID = 0
+			// console.log(r);
+			for (let i=0; i < r.length; i++ ) {
+				if (r[i.toString()].title === String(dirParent)) {
+					dirParentID = r[i.toString()].id;
+					// console.log(String(dirParentID));
+					createBookMark(dirParentID, String(dirBookMark), Data.URL);
+					return true;
+				};
+			};
 		}
 	);
 }

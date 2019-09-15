@@ -25,8 +25,7 @@ MIT
 
 ### これは何
 
-- 「ブックマーク作成に一々マウス使いたくねぇ」
-そんな方のために作成中の、キーボードのみでブックマークが作成できるブラウザプラグインです。
+- 「ブックマーク作成時にディレクトリを探りたくない」 という要求を満たす為の、キーボードのみでブックマークが作成できるブラウザプラグインです。
 
 ### [chrome拡張へのリンク](https://chrome.google.com/webstore/detail/spacebookmarks/ecahpfejocepicljldbdohmakckkojje)
 

@@ -42,7 +42,7 @@ MIT
 
 ## 必読
 
-起動用の [ショートカット割当](chrome://extensions/shortcuts) をしてください。
+起動用のショートカット割当をしてください。(chrome://extensions/shortcuts)
 
 ## 不親切な仕様です (TODO: 実装)
 
